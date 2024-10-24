@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Rin Hanaoka
 import sys
 
 ans = 0
