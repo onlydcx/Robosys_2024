@@ -10,5 +10,15 @@ def get_divisors(num):
             ans.append(i)
     return ans
 
-print(get_divisors(20))
+if len(sys.argv) != 2:
+    print("引数の数が多すぎます")
+    sys.exit(1)
+
+input_num = int(sys.argv[1])
+
+if input_num < 0:
+    print("負の数は入力できません")
+    sys.exit(1)
+else:
+    print(get_divisors(input_num))
 
