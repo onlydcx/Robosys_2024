@@ -12,9 +12,15 @@ $ ./print_divisors 12
 > [1, 2, 3, 4, 6]
 ```
 
+## インストール方法
+```bash
+$ git clone https://github.com/onlydcx/robosys2024.git
+$ cd robosys2024
+```
+
 ## 必要なソフトウェア
 - Python
-        - テスト済みバージョン: 3.5~3.10
+- テスト済みバージョン: 3.5~3.10
 
 ## テスト環境
 - Ubuntu 24.04 LTS
