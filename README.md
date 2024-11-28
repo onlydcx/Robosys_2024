@@ -4,18 +4,19 @@
 
 ## print_divisorsコマンド
 このコマンドは、入力された整数の約数を全て表示するプログラムです。
-複数の引数を与えたり、負の数を入力するとエラーとなります。
 
-### 使用例
-```bash
-$ ./print_divisors 12
-> [1, 2, 3, 4, 6]
-```
+複数の整数を入力したり、負の数を入力するとエラーとなります。
 
 ## インストール方法
 ```bash
 $ git clone https://github.com/onlydcx/robosys2024.git
 $ cd robosys2024
+```
+
+## 実行例
+```bash
+$ ./print_divisors 12
+[1, 2, 3, 4, 6]
 ```
 
 ## 必要なソフトウェア
