@@ -10,8 +10,9 @@ ng () {
 res=0
 
 # print_divisorsへのテスト
-out=$(echo 12 | ./print_divisors)
-["${out}" = "[1, 2, 3, 4, 6, 12]"] || ng "$LINENO" 
+out=$(./print_divisors 12)
+echo $out
+[ "${out}" = "[1, 2, 3, 4, 6, 12]" ] || ng "$LINENO" 
 
 [ "$res" = 0 ] && echo ok
 exit "$res"
