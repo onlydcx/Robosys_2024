@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Rin Hanaoka <s23c1110vk@s.chibakoudai.jp>
+
+import sys
+
+def get_divisors(num):
+    ans = []
+    for i in range(1,num+1):
+        if num % i == 0:
+            ans.append(i)
+    return ans
+
+print(get_divisors(20))
+
