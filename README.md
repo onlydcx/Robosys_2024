@@ -2,9 +2,19 @@
 
 ![test](https://github.com/onlydcx/robosys2024/actions/workflows/test.yml/badge.svg)
 
+## print_divisorsコマンド
+このコマンドは、入力された整数の約数を全て表示するプログラムです。
+複数の引数を与えたり、負の数を入力するとエラーとなります。
+
+### 使用例
+```bash
+$ ./print_divisors 12
+> [1, 2, 3, 4, 6]
+```
+
 ## 必要なソフトウェア
 - Python
-	- テスト済みバージョン: 3.5~3.10
+        - テスト済みバージョン: 3.5~3.10
 
 ## テスト環境
 - Ubuntu 24.04 LTS
